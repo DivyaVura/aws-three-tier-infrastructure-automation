@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Sensitive configuration
+*.tfvars
+!*.tfvars.example
+
+# Credentials and secrets
+*.pem
+*.key
+*.env
+.env
+.env.*
+*.secret
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db

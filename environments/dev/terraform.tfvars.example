@@ -1,0 +1,8 @@
+project_name = "aws-three-tier-infrastructure-automation"
+environment  = "dev"
+aws_region   = "ap-south-1"
+owner        = "example-owner"
+
+allowed_admin_cidr = "YOUR_PUBLIC_IP/32"
+domain_name        = "example.com"
+key_name           = "your-ec2-key-pair-name"
